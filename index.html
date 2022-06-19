@@ -8,18 +8,20 @@
 </head>
 <body>
     <h1>Checklist</h1>
-
+       <form action="https://formsubmit.co/el/tocele" method="POST">
         <h2>Living room </h2>
-            <input type="radio" value="dust shelves" />
+            <input type="radio" name="shelves" value="dust shelves" />
             <label for="dust shelves">Dust and wipe down shelves and tables and any surfaces</label> <br>
-            <input type="radio" value="dust window" />
+            <input type="radio" name="dust window" value="dust window" />
             <label for="dust window">Dust window and sides of windows</label> <br>
-            <input type="radio" value="vacuum" />
+            <input type="radio" name="vacuum" value="vacuum" />
             <label for="vacuum">Vacuum floor thoroughly - make sure no hair or stains</label> <br>
-            <input type="radio" value="couch" />
+            <input type="radio" name="couch" value="couch" />
             <label for="couch">Tidy cushions on couch - make sure no hair or stains on the couch</label> <br>
             <input type="radio" value="spray" />
             <label for="spray">Dust and spray fabric spray on couch and carpets and chairs</label>
+            <input type="radio" value="wine" />
+            <label for="wine"> Check that you leave a bottle of wine in the dinning table </label>
   
         <h2>Kitchen</h2> 
             <input type="radio" value="cabinets">
@@ -62,6 +64,6 @@
             <label for="walls">Clean and sanitise bathroom floor and walls</label><br>
             <input type="radio" value="hair" />
             <label for="hair">Ensure no hair, dust or mould</label>
-
+    </form>
 </body>
 </html>
